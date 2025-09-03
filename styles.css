@@ -1,0 +1,52 @@
+
+#password-help {
+    color: red;
+}
+
+label {
+    color: rgb(0, 0, 0);
+}
+.container > p {
+  color: blue;
+}
+
+.inline-block-element {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+
+.element1 {
+  background-color: lightblue;
+}
+
+.element2 {
+  background-color: lightgreen;
+}
+
+.logo-name {
+    text-align: center;
+    color: peru;
+}
+.mission-statement-underneath-name{
+    text-align: center;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    padding: 5%;
+}
+nav{
+    text-align: center;
+}
+body{
+    background-color: lavender;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cart{
+    border: 10px solid black;
+}
