@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>KMarket 82</title>
 
@@ -14,17 +15,17 @@
     <body>
 <!-- Literally the top of the page lol -->        
       <section id="home">
-        <h1>KMarket 82</h1>
-        <p>This is <b>@yormdays</b> space for selling his Kpop Merchandise like albums, photocards and other items that he won't need anymore. If you have any other questions please DM <a href="mailto:aeriplane0096@gmail.com"><strong>aeriplane0096@gmail.com</strong></a></p>
+        <h1 class="logo-name">KMarket 82</h1>
+        <p class="mission-statement-underneath-name">This is <b>@yormdays</b> space for selling his Kpop Merchandise like albums, photocards and other items that he won't need anymore. If you have any other questions please DM <a href="mailto:aeriplane0096@gmail.com"><strong>aeriplane0096@gmail.com</strong></a></p>
 
         <!-- Creating the nav area -->
         <header>
             <nav>
-                <center>
+            
                  <a href="index.html"><b>Home</b></a>
-                 <a href="new-file-1.html"><b>About</b></a>
-                 <a href="https://x.com/yormdays" target="_blank"><b>Twitter/X</b></a>
-                </center>
+                 <a href="about.html"><b>About</b></a>
+                 <a href="your-cart-page.html"><b>Cart</b></a>
+            
             </nav>
         </header>
       </section>
@@ -32,13 +33,14 @@
 <!-- Setting up email and username accounts -->
 
 <p><i>Please sign up with you name and email to be able to start trading</i></p>
-<form action="">
+<form action="" class="sign-up">
   <fieldset>
     <legend>Account Info</legend>
     <caption>
     <label>
       *Username:
         <input required type="text"placeholder="Ex. yormdays" minlength="5" maxlength="15" />
+    <hr>
     <label for="email">*Email Address: </label>
     <input required type="email" id="email" placeholder="Ex. example@email.com" />
     <label for="password">Password: </label>
